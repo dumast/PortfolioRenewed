@@ -1,0 +1,59 @@
+:root {
+	--redOne: #8b1616;
+	--redTwo: #f33232;
+}
+
+html, body {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	color: rgb(255, 255, 255);
+	background-color: rgb(255, 255, 255);
+	margin: 0;
+	font-size: 3em;
+	box-sizing: border-box;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+.container {
+	background-color: rgb(56, 56, 56);
+	height: 100%;
+  	scroll-snap-align: start;
+  	box-sizing: border-box;
+  	text-align: center;
+	margin-bottom: 0.2%;
+    background-repeat: no-repeat;
+    background-size: cover;
+	overflow-x: hidden;
+}
+
+.opacity{
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.781);
+	display: grid;
+    place-items: center;
+}
+
+/* width */
+::-webkit-scrollbar {
+	width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+	background: rgb(71, 24, 24);
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	background: var(--redOne);;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+	background: var(--redTwo);
+  }

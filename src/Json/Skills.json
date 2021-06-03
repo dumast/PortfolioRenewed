@@ -1,0 +1,39 @@
+[
+    {
+      "name": "Python",
+      "link": "https://www.python.org/"
+    },
+    {
+      "name": "C",
+      "link": "https://simple.wikipedia.org/wiki/C_(programming_language)"
+    },
+    {
+      "name": "Html",
+      "link": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+    },
+    {
+      "name": "Css",
+      "link": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+    },
+    {
+      "name": "JavaScript",
+      "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+    },
+    {
+      "name": "React",
+      "link": "https://reactjs.org/"
+    },
+    {
+      "name": "NextJS",
+      "link": "https://nextjs.org/"
+    },
+    {
+      "name": "Svelte",
+      "link": "https://svelte.dev/"
+    },
+    {
+      "name": "Git",
+      "link": "https://git-scm.com/"
+    }
+  ]
+  
