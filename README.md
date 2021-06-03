@@ -1,6 +1,6 @@
 *Please note that this website is still in development*
 
-## use
+## Use
 * yarn install
 * yarn start
 
